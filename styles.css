@@ -404,7 +404,6 @@ nav a.active {
   outline: none;
 }
 
-
 .contato-form button {
   background-color: var(--dourado);
   border: none;
@@ -482,6 +481,8 @@ footer p {
   height: 60px;
   cursor: pointer;
 }
+
+/* Texto introdutório */
 
 .intro-text {
   max-width: 800px;
@@ -581,7 +582,6 @@ footer p {
   background: linear-gradient(45deg, #b38f18, var(--dourado));
 }
 
-
 /* Responsividade */
 
 @media (max-width: 600px) {
@@ -607,5 +607,9 @@ footer p {
   .equipe .foto {
     width: 130px;
     height: 130px;
+  }
+
+  .buffet-cardapio {
+    padding: 20px 15px;
   }
 }
